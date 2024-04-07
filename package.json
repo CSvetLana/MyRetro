@@ -1,0 +1,16 @@
+{
+  "name": "atomation-with-playwright",
+  "version": "1.0.0",
+  "description": "learn automation with piaywright",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "npx playwright test --project=chromium",
+    "test:firefox": "npx playwright test --project=firefox",
+    "test:webkit": "npx playwright test --project=webkit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.31.1"
+  }
+}
